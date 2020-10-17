@@ -1,0 +1,176 @@
+* {
+    box-sizing : content-box;
+    margin: 0;
+}
+
+body
+{
+    background:linear-gradient(to right , #008891, #00587A , #0f3057);
+}
+
+.box
+{
+    width:480px;
+    min-height: 300px;
+    margin : 1% auto;
+    background :none;
+    border : 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1000px;
+}
+
+
+.head
+{
+    background-color: #5A4949;
+}
+input
+{
+    width : 140px;
+    height :40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.first , .last
+{
+    width : 140px;
+    height: 40px;
+    font-size: 1.2rem;
+    color :#F4ECEC;
+    padding-left : 10px;
+    padding-top : 10px;
+}
+
+.add
+{
+    border : none ;
+    margin : auto 0;
+    background: none;
+    
+}
+
+.add:hover
+{
+    background-color: #463333;
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn
+{
+    color : white;
+    border: 1px solid red;
+    background:none;
+}
+
+.btn:hover
+{
+    background-color : #63F583;
+
+}
+
+.write
+{
+    padding-left: 10px;
+}
+
+.row
+{
+    margin: 5px 0 ;
+}
+
+/* Recycel portion  */
+
+hr
+{
+    width: 480px;
+    margin: 0 auto 20px auto ;
+    color: black;
+}
+
+.recycle
+{
+    width:640px;
+    min-height: 300px;
+    margin : 0 auto;
+    background :none;
+    border : 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+.rest
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.restored
+{
+    background-color: wheat;
+}
+
+.list
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top :10%;
+}
+
+
+.bottom
+{
+    width :90px;
+    height: 40px;
+    background: none;
+    font-size: 1.2rem;
+    color : white;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.bottom:hover
+{
+    background-color: #132743;
+    cursor: pointer;
+}
+
+.up
+{
+    width : 40px;
+    height: 40px;
+    background: none;
+    color : white;
+    border: none;
+}
+
+.btm:hover
+{
+    transition: all 0.4s;
+}
+
+.up :hover
+{
+    cursor: pointer;
+    color : black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.office
+{
+    width : 725px;
+    margin: auto ;
+}
